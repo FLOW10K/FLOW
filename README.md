@@ -1,6 +1,7 @@
 # FLOW
-TOKEN FLOW Connecting people who do not have the ability or resources to own technological tools
-contract Token {
+TOKEN FLOW Connecting people who do not have the ability or resources to own technological tools contract Token 
+
+{
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 18;
